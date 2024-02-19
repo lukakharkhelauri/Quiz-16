@@ -1,0 +1,46 @@
+.search-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:20px;
+
+    input {
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 400px;
+      }
+    
+      button {
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+
+    .user-profile{
+        text-align: center;
+
+        img{
+            width:100px;
+            border-radius:50%;
+            margin-bottom: 10px;
+        }
+
+        h2{
+            margin-bottom:5px;
+        }
+
+        p{
+            color:gray;
+        }
+    }
